@@ -1,0 +1,15 @@
+.conversion-box {
+    -fx-background-color: white;
+    -fx-background-radius: 15px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 10, 0.1, 0, 4);
+    -fx-padding: 30;
+    -fx-max-width: 600px;
+}
+
+.button-modern {
+    -fx-background-color: #00b2b9;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-background-radius: 6px;
+    -fx-padding: 10 20;
+}

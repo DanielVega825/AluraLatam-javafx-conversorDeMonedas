@@ -1,0 +1,19 @@
+
+
+*.iws
+*.iml
+*.ipr
+
+# IntelliJ
+.idea/
+*.iml
+out/
+target/
+
+# Build
+target/
+build/
+
+# Java
+*.class
+*.log
