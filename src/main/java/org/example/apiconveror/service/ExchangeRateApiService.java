@@ -28,7 +28,7 @@ public class ExchangeRateApiService {
 
         HttpRequest request = HttpRequest.newBuilder()
                 .uri(URI.create("https://v6.exchangerate-api." +
-                        "com/v6/bedefc123ca400b491acc830/latest/" + a + "/"))
+                        "com/v6/TuApiKey/latest/" + a + "/"))
                 .build();
 
         HttpResponse<String> response = client.send(request,
